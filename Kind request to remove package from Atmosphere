@@ -1,0 +1,11 @@
+Hi Daniel,
+
+While looking for mandrill packages on Atmosphere I found [yours](https://atmospherejs.com/danimal/mandrill). It looks like a fork of @Wylio without much modification (the README stil says `meteor add wylio:mandrill`).
+
+To keep Atmosphere clean, we kindly ask you to either mention in the README how this package is different from the original, or if this pacakge was published by mistake, to hide it. No worries, it will still be installable by apps and dependent packages; it will just be hidden from Atmosphere searches:
+
+    meteor admin set-unmigrated danimal:mandrill
+
+Thanks,
+[Dan](https://atmospherejs.com/dandv)
+Atmosphere moderator
